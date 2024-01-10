@@ -1,3 +1,27 @@
+commons-parent (56-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 56
+  * Ignoring junit-bom dependency, thanks to Jérôme Charaoui
+    (Closes: #1028024)
+  * Removing unneeded versioned build-dependencies
+  * Use secure URI in Homepage field.
+  * Set upstream metadata fields: Bug-Database, Repository, Repository-Browse.
+  * Adding a Lintian override for this Java package providing no jar
+
+ -- Pierre Gruet <pgt@debian.org>  Sat, 07 Jan 2023 07:35:14 +0100
+
+commons-parent (55-1) unstable; urgency=medium
+
+  * New upstream release
+    - Updated the ignored plugins
+  * Switch to debhelper level 13
+  * Standards-Version updated to 4.6.2
+  * Use salsa.debian.org Vcs-* URLs
+  * Track and download the new releases from GitHub
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Mon, 02 Jan 2023 14:29:01 +0100
+
 commons-parent (43-1) unstable; urgency=medium
 
   * Team upload.

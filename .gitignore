@@ -1,1 +1,4 @@
-.pc/
+/.project
+/.settings/
+/target/
+/commons-parent.iml
