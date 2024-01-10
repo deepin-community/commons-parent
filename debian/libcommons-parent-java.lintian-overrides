@@ -1,0 +1,3 @@
+# The purpose of this -java package is only to provide basis Maven
+# coordinates.
+javalib-but-no-public-jars
