@@ -15,12 +15,16 @@
 #   junit junit jar s/3\\..*/3.x/
 
 org.apache.commons commons-build-plugin
+org.apache.commons commons-release-plugin
 org.apache.maven.plugins maven-antrun-plugin
 org.apache.maven.plugins maven-assembly-plugin
+org.apache.maven.plugins maven-checkstyle-plugin
 org.apache.maven.plugins maven-deploy-plugin
 org.apache.maven.plugins maven-enforcer-plugin
 org.apache.maven.plugins maven-gpg-plugin
 org.apache.maven.plugins maven-install-plugin
+org.apache.maven.plugins maven-pmd-plugin
+org.apache.maven.plugins maven-project-info-reports-plugin
 org.apache.maven.plugins maven-release-plugin
 org.apache.maven.plugins maven-remote-resources-plugin
 org.apache.maven.plugins maven-scm-publish-plugin
@@ -30,7 +34,12 @@ org.apache.maven.plugins maven-failsafe-plugin
 org.apache.rat apache-rat-plugin
 org.codehaus.mojo build-helper-maven-plugin
 org.codehaus.mojo buildnumber-maven-plugin
-org.codehaus.mojo clirr-maven-plugin
-com.github.siom79.japicmp japicmp-maven-plugin
+org.codehaus.mojo javancss-maven-plugin
 org.codehaus.mojo versions-maven-plugin
+org.cyclonedx cyclonedx-maven-plugin
+com.github.siom79.japicmp japicmp-maven-plugin
+com.github.spotbugs spotbugs-maven-plugin
 org.jacoco jacoco-maven-plugin
+org.spdx spdx-maven-plugin
+org.apache.maven.wagon wagon-ssh
+org.junit junit-bom
